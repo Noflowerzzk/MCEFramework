@@ -1,0 +1,19 @@
+Subject: [PATCH] Uncommitted changes before Update at 2025/11/5 17:09 [Changes]
+---
+Index: src/main/java/mcevent/MCEFramework/games/hitWall/HitWallFuncImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/mcevent/MCEFramework/games/hitWall/HitWallFuncImpl.java b/src/main/java/mcevent/MCEFramework/games/hitWall/HitWallFuncImpl.java
+--- a/src/main/java/mcevent/MCEFramework/games/hitWall/HitWallFuncImpl.java	(revision a7b3128fff1b56966e225da123b9a609c01e2fc9)
++++ b/src/main/java/mcevent/MCEFramework/games/hitWall/HitWallFuncImpl.java	(date 1757916540755)
+@@ -77,7 +77,7 @@
+ 
+ 		// 将玩家切换为旁观模式
+ 		player.setGameMode(GameMode.SPECTATOR);
+-		player.setHealth(player.getMaxHealth());
++		player.setHealth(20);
+ 
+ 		// 更新计分板
+ 		HitWallGameBoard gameBoard = (HitWallGameBoard) hitWall.getGameBoard();
